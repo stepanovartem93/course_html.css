@@ -1,0 +1,92 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(170, 170, 235);
+    height: 120px;
+}
+
+.content {
+    background-color: rgb(226, 218, 226);
+    height: fit-content;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(59, 28, 28);
+    height: fit-content;
+    justify-content: space-around;
+}
+
+.NaviBarInFooter {
+    /* border: 1px solid white; */
+    float: left;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    height: fit-content;
+}
+
+.NaviBarInFooter a {
+    margin-top: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.NaviBarInFooter a:hover {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.PayCard {
+   margin-top: 5px; 
+}
+
+.MenuList {
+    background-color: aqua;
+    border: 1px solid black;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.MenuList div {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.MenuList a {
+    padding-left: 10px;
+    padding-right: 87px;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+}
+
+.MenuList a:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.AdvertisingBrochure {
+    display: flex;
+    border: 1px solid black;
+    margin-top: 4%;
+    margin-left: 100px;
+    padding: 100px 0px 100px 100px;
+    width: fit-content;
+}
+
+.NewProductsImgAndShortDesc {
+
+}
+
+.NewProductsSection {
+    
+}
