@@ -1,15 +1,31 @@
 body {
-    background:#f8f8f8;
+    width: 960px;
+    margin: 0 auto;
 }
 
+.logo {
+    border-radius: 100px;
+    width: 150px;
+    height: 100px;
+}
 .main_menu {
     list-style: none;
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .main_menu li a {
     text-decoration-line: none;
     font-size: 20px;
+}
+
+.main_menu li a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    color: brown;
 }
 
 .key_description {
@@ -36,13 +52,19 @@ body {
     text-align: left;
 }
 
-.contacts-form input[type="text"], 
-.contacts-form input[type="e-mail"] {
+.contacts-form input[placeholder="Напишите ваше имя"], 
+.contacts-form input[placeholder="Напишите ваш e-mail"], 
+.contacts-form input[placeholder="Тема письма"]{
     font-family: "Chartrand_Cyrillic";
     width: 400px;
     height: 30px;
     color: #771ccc;
     font-size: 20px;
+}
+
+.contacts-form input:focus {
+    background-color:antiquewhite;
+    text-transform: capitalize;
 }
 
 .button24 {
@@ -61,3 +83,60 @@ body {
 
 .button24:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
 .button24:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+.contacts-form input [type="e-mail"]:active {
+    color: cyan;
+}
+
+
+.technical_params {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    border-color: cadetblue;
+}
+
+.technical_params td {
+    border: 1px solid #000;
+    border-color: cadetblue;
+    border-style: dotted;
+}
+
+
+.product_image {
+    outline: 2px solid #000;
+    outline-color: royalblue;
+}
+
+.product_image:hover {
+    outline: 1px solid white;
+}
+
+.text:first-letter {
+    color: red;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+caption {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #F5F5DC;
+}
+
+.store_name {
+    font-family:sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.content {
+    background-color: #E0FFFF;
+}
+
+.footer {
+    background-color: #000000;
+    color: white;
+}
