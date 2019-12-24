@@ -1,31 +1,58 @@
-body {
+.container {
     width: 960px;
     margin: 0 auto;
 }
 
+.header {
+    background-color: #34D1B2;
+    height: 150px;
+}
+
 .logo {
     border-radius: 100px;
-    width: 150px;
-    height: 100px;
+    width: 100px;
+    height: 90px;
+    top: 25px;
+    left: 15px;
+    position: relative;
 }
+
+.store_name {
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    top: -20px;
+    left: 15px;
+    position: relative;
+}
+
 .main_menu {
     list-style: none;
     font-family: 'Droid Sans', sans-serif;
     font-weight: 700;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    position: relative;
+    float: right;
+    top: 15px;
+    right: 20px;
+}
+
+.main_menu li {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 5px;
 }
 
 .main_menu li a {
     text-decoration-line: none;
-    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .main_menu li a:hover {
-    text-decoration: underline;
-    font-weight: 700;
-    color: brown;
+    font-weight: 750;
+    color: rgba(255, 0, 0, 0.568);
+    border: 1px solid rgb(235, 30, 30);
 }
 
 .key_description {
@@ -104,6 +131,9 @@ body {
 .product_image {
     outline: 2px solid #000;
     outline-color: royalblue;
+    width: 300px;
+    height: 300px;
+
 }
 
 .product_image:hover {
@@ -122,21 +152,21 @@ caption {
     font-weight: bold;
 }
 
-.header {
-    background-color: #F5F5DC;
-}
-
-.store_name {
-    font-family:sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-}
-
 .content {
-    background-color: #E0FFFF;
+    background-color: rgb(230, 240, 238);
 }
 
 .footer {
-    background-color: #000000;
-    color: white;
+    background-color:#FFCE73;
+    color: black;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.all_rights_reserved {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 30px;
 }
