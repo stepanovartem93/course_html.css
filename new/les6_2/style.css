@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1920px;
+}
+
+.slider {
+    height: 725px;
+    background: url(img/slider.jpg) no-repeat;
+}
+
+.header {
+    position: relative;
+    background-color: #000000;
+    opacity: 0.5;
+    height: 83px;
+    top: 20px;
+}
+
+.brand-name {}
+
+.logo-h {}
+
+.logo-g {}
+
+.phone-mail {}
+
+.search-area {}
+
+.menu {}
+
+.menu-list {
+    float: left;
+}
