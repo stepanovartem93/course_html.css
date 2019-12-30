@@ -21,18 +21,16 @@
     top: 20px;
 }
 
-.brand-name {}
+.brand-name {
+    float: left;
+}
 
-.logo-h {}
-
-.logo-g {}
-
-.phone-mail {}
+.phone-mail {
+    float: left;
+}
 
 .search-area {}
 
 .menu {}
 
-.menu-list {
-    float: left;
-}
+.menu-list {}
