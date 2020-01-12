@@ -104,3 +104,45 @@
     width: 208px;
     height: 38px;
 }
+
+.search-area input {
+}
+
+.search-area input {
+}
+
+.menu {
+    
+}
+
+.main-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+.menu-link {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0.36px;
+}
+
+.menu-link:hover {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #ffffff;
+}
+
+.slider-text {
+    
+}
